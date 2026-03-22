@@ -100,7 +100,7 @@ LAB3-Navigation/
 
 1. Clone this repository
 ```bash
-git clone https://github.com/Laila071/LAB3-Navigation.git
+git clone https://github.com/Laila071/LAB3.git
 ```
 2. Open the project in **Android Studio**
 3. Run it on an emulator or a physical device using the **Run** button
