@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="22dp"
+    android:orientation="vertical"
+    android:background="#121212">
+
+    <TextView
+        android:id="@+id/tv_titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="18dp"/>
+
+    <TextView
+        android:id="@+id/tv_recap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#03DAC6"
+        android:lineSpacingExtra="6dp"/>
+
+    <Button
+        android:id="@+id/btn_retour"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Go Back"
+        android:backgroundTint="#03DAC6"
+        android:textColor="#121212"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Share"
+        android:backgroundTint="#6C63FF"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

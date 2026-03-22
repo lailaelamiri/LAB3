@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LAB 3</string>
+    <string name="full_name">Full name</string>
+    <string name="ex_example_gmail_com">Ex : example@gmail.com</string>
+    <string name="phone_number">Phone_number</string>
+    <string name="adresse">Adresse</string>
+    <string name="ex_abdelkarim_elkhatabi">Ex : Abdelkarim_Elkhatabi ...</string>
+    <string name="city">City</string>
+    <string name="send">send</string>
+    <string name="recap">Recap</string>
+    <string name="summary">Summary</string>
+    <string name="go_back">Go Back</string>
+</resources>

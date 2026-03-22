@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="22dp"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/full_name"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/field_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : ELAMIRI LAILA"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:backgroundTint="#6C63FF"
+            android:layout_marginBottom="13dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/field_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ex_example_gmail_com"
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:backgroundTint="#6C63FF"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/field_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : +212657898335"
+            android:inputType="phone"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:backgroundTint="#6C63FF"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adresse"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="4dp"/>
+        <EditText
+            android:id="@+id/field_adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ex_abdelkarim_elkhatabi"
+            android:inputType="textPostalAddress"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:backgroundTint="#6C63FF"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:id="@+id/field_ville"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : Marrakech"
+            android:inputType="textCapWords"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:backgroundTint="#6C63FF"
+            android:layout_marginBottom="14dp"/>
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/send"
+            android:backgroundTint="#6C63FF"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="23dp"/>
+
+    </LinearLayout>
+</ScrollView>
